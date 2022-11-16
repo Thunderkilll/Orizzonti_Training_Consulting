@@ -2371,14 +2371,18 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #20c997;
+  border-color: #20c997;
+  /* background-color: #FF6600;
+  border-color: #FF6600; */
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #d95700;
-  border-color: #cc5200;
+  background-color: #1db788;
+  border-color: #1db788;  
+  /* background-color: #d95700;
+  border-color: #cc5200; */
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2390,8 +2394,10 @@ fieldset:disabled a.btn {
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #FF6600;
-  border-color: #FF6600;
+  background-color: #20c997;
+  border-color: #20c997;
+  /* background-color: #FF6600;
+  border-color: #FF6600; */
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
@@ -3872,7 +3878,8 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #FF6600;
+  background-color: #20c997; 
+  /* background-color: #FF6600; */
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3902,7 +3909,8 @@ input[type="button"].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #FF6600;
+  background-color: #20c997;
+  /* background-color: #FF6600; */
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3935,7 +3943,8 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #FF6600;
+  background-color: #20c997; 
+  /* background-color: #FF6600; */
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4774,7 +4783,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #FF6600;
+  background-color: #20c997;
+  /* background-color: #FF6600; */
   border-color: #FF6600;
 }
 
@@ -4858,7 +4868,8 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #FF6600;
+  background-color: #20c997;
+  /* background-color: #FF6600; */
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
@@ -6355,7 +6366,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #FF6600 !important;
+  background-color: #20c997 !important;
+  /* background-color: #FF6600 !important; */
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6483,7 +6495,8 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #FF6600 !important;
+  border-color: #20c997 !important;
+  /* border-color: #FF6600 !important; */
 }
 
 .border-secondary {
@@ -9530,7 +9543,8 @@ button.bg-dark:focus {
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #b34700 !important;
+  /* color: #b34700 !important; */
+  color: #20c897 !important; 
 }
 
 .text-secondary {
@@ -9773,7 +9787,8 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #FF6600;
+  color: #20c997;
+  /* color: #FF6600; */
 }
 
 @media (max-width: 991.98px) {
@@ -9818,7 +9833,8 @@ h6,
 }
 
 .carousel-indicators .active {
-  background: #FF6600;
+  background: #20c997;
+  /* background: #FF6600; */
 }
 
 @media (max-width: 991.98px) {
@@ -9911,7 +9927,8 @@ h6,
   width: 15px;
   height: 15px;
   border-radius: 15px;
-  background: #FF6600;
+  background: #20c997;
+  /* background: #FF6600; */
 }
 
 .testimonial-carousel .owl-dot::after {
@@ -9921,7 +9938,8 @@ h6,
   right: -5px;
   bottom: -5px;
   left: -5px;
-  border: 2px solid #FF6600;
+  border: 2px solid #20c997;
+  /* border: 2px solid #FF6600; */
   border-radius: 20px;
 }
 
