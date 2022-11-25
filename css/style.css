@@ -10026,3 +10026,12 @@ margin-left: 10px;
   margin-bottom: -5px;
 }
 /* time counter css part END */
+/* PRELOADER */
+#preloader{
+background: #000 url(../img/loader.gif) no-repeat center;
+background-size: 20%;
+height: 100vh;
+width: 100%;
+position: fixed;
+z-index: 100;
+}
