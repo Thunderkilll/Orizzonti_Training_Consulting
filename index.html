@@ -28,6 +28,22 @@
 <body>
     <div id="preloader"></div>
     <!-- Topbar Start -->
+    <nav>
+        <div id="menu_languages">
+            <ul>
+                <li><a href="#">Select Language</a></li>
+            </ul>
+            <div id="subMenu">
+                <ul>
+                    <li><a href="#" language='english' class="active">English</a></li>
+                    <li><a href="#" language='français'>French</a></li>
+                    <li><a href="#" language='italian'>Italian</a></li>
+                    <li><a href="#" language='arabic'>Arabic</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div class="container-fluid d-none d-lg-block">
         <div class="row align-items-center py-4 px-xl-5">
             <div class="col-lg-3">
@@ -697,6 +713,23 @@
         }
 
     }, 1000);
+
+
+
+    $(document).ready(function () {
+        $("#subMenu").hide();
+    });
+
+    $("#menu_languages").hover(
+        function () {
+            $("#subMenu").show('fast');
+        },
+        function () {
+            $("#subMenu").hide('fast');
+        }
+    );
+
+
 </script>
 
 </html>
