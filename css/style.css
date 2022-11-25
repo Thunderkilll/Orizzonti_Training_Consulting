@@ -9975,3 +9975,54 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+/* time counter css part START */
+.time-counter-container{
+width: 100vw;
+height: 50vh;
+background-image: url(../img/timer_bg.png);
+background-size: cover;
+padding: 10% 10%;
+position: relative;
+}
+.time-counter-content{
+  
+position: absolute;
+transform: translateY(-50%);
+color: #dfdfdf;
+}
+
+.time-counter-content h1{
+font-size: 46px;
+color: #dfdfdf;
+font-weight: 600;
+}
+.time-counter-content h1 span{
+
+color: #ff3753; 
+}
+.time-counter-content button{
+  background: transparent;
+  border: 2px solid #1db788;
+  color: #fff;
+  padding: 12px 25px; 
+  margin-top: 30px;
+  cursor: pointer;
+ }
+.time-counter-content button img{
+width: 15px;
+margin-left: 10px;
+ }
+
+ .lauch-timer{ 
+  display: flex;
+}
+
+.lauch-timer div{ 
+  flex-basis: 100px;
+}
+.lauch-timer div p{ 
+  font-size: 30px;
+  margin-bottom: -5px;
+}
+/* time counter css part END */

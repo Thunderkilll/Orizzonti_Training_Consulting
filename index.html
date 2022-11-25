@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <title>Orizzonti - Training & Consulting</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="Orizzonti" name="keywords">
+    <meta content="Orizzonti" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -108,7 +108,7 @@
                             <a href="index.html" class="nav-item nav-link active">Home</a>
                             <a href="about.html" class="nav-item nav-link">About</a>
                             <a href="course.html" class="nav-item nav-link">Courses</a>
-                            <a href="teacher.html" class="nav-item nav-link">Teachers</a>
+                            <!-- <a href="teacher.html" class="nav-item nav-link">Teachers</a> -->
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
                                 <div class="dropdown-menu rounded-0 m-0">
@@ -419,6 +419,7 @@
                         <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Diam dolor diam elitripsum vero.</li>
                     </ul>
                 </div>
+
                 <div class="col-lg-5">
                     <div class="card border-0">
                         <div class="card-header bg-light text-center p-4">
@@ -454,7 +455,7 @@
 
 
     <!-- Team Start -->
-    <div class="container-fluid py-5">
+    <!-- <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-5">
                 <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Teachers</h5>
@@ -527,7 +528,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Team End -->
 
 
@@ -609,25 +610,47 @@
         </div>
     </div>
     <!-- Blog End -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- BLOCK MAP START -->
+    <!-- <div class="wpb_wrapper"><div class="wpb_gmaps_widget wpb_content_element vc_custom_1574068201439" id="Googlemap">
+		<div class="wpb_wrapper">
+		<div class="wpb_map_wraper">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12773.415333477677!2d10.1948711!3d36.8340011!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x864abb49c265ff8e!2sInstitut%20Sup%C3%A9rieur%20des%20Langues%20de%20Tunis!5e0!3m2!1sfr!2stn!4v1574065585054!5m2!1sfr!2stn" width="600" height="450" frameborder="0" style="border: 0px; pointer-events: none;" allowfullscreen=""></iframe>		</div>
+	    </div>
+        </div>
+    </div> -->
+  <!-- BLOCK MAP END -->
+  <!-- BLOCK LAUNCH TIME START -->
     
-    <!-- Footer Start -->
+<div class="time-counter-container">
+    <div class="time-counter-content"> 
+        <p> NEXT SESSION SCHEDULE</p>
+        <h1>It's here soon !<span>  A NEW SESSION</span> </h1>
+        <div class="lauch-timer">
+            <div>
+                <p id="days">00</p>
+                <span>DAYS</span>
+            </div>
+            <div>
+                <p id="hours">00</p>
+                <span>HOURS</span>
+            </div>
+            <div>
+                <p id="minutes">00</p>
+                <span>MINUTES</span>
+            </div>
+            <div>
+                <p id="seconds">00</p>
+                <span>SECONDS</span>
+            </div>
+        </div>
+        <button type="button"> REGISTER NOW <img src="img/triangle.png"></button>
+    </div>
+
+</div>
+
+  <!-- BLOCK LAUNCH TIME END -->
+
+  <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
         <div class="row pt-5">
             <div class="col-lg-7 col-md-12">
@@ -733,4 +756,20 @@
 
   <!-- Template Javascript -->
   <script src="js/main.js"></script>
+  <script>  
+var countdownRate = new Date("Nov 29, 2022 00:00:00").getTime();
+var x = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countdownRate - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementById("days").innerHTML=days;
+    document.getElementById("hours").innerHTML=hours;
+    document.getElementById("minutes").innerHTML=minutes;
+    document.getElementById("seconds").innerHTML=seconds;
+
+}, 1000);
+</script>
 </html>
