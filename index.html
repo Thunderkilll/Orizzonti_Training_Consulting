@@ -616,6 +616,14 @@
                   </div>
                   <div class="form-group">
                     <input
+                      type="tel"
+                      class="form-control border-0 p-4 phone"
+                      placeholder="Your phone number"
+                      required="required"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
                       type="email"
                       class="form-control border-0 p-4 email"
                       placeholder="Your email"
@@ -992,11 +1000,35 @@
       const name = document.querySelector(".name"),
             email = document.querySelector(".email"),
             language = document.querySelector(".lang");
-
+            telephoneNB = document.querySelector(".phone");
+    if (name.value == "") {
+        alert("You must fill out your NAME");
+        return false;
+    }
+    if (email.value == "") {
+        alert("You must fill out your EMAIL");
+        return false;
+    }
+    if (telephoneNB.value == "") {
+        alert("You must fill out your Phone Number correctly "+language.value.length);
+        return false;
+    }
+    var lang = "ITALIAN";
+    if (language.value == "" || language.value == 0) {
+        alert("Please select the language you want to register in");
+        return false;
+    }else if (language.value == 1){
+        lang = "ITALIAN";
+    }else if (language.value == 2){
+        lang = "ENGLISH"
+    }else if (language.value == 3){
+        lang = "FRENSH"
+    }
+    var msg = "Your EMAIL was submitted a reply will be shortly coming your way tp confirm your registery. Thank you for using our website";
       //****SEND MAIL FOR REGISTRING***********
       Email.send({
         SecureToken: "2b0c722a-5e9e-46ad-8861-23cf37fdf124",
-        To: "info@orizzonti.tn",
+        To: "khaledguesmi666@gmail.com",
         From: email.value,
         Subject: "REGISTER NEW STUDENT",
         Body:
@@ -1005,8 +1037,10 @@
           " with this email " +
           email.value +
           " in this language " +
-          language.value,
-      }).then((message) => alert(message));
+          lang +
+          " His phone Number is "+
+          telephoneNB.value,
+      }).then((message) => alert(msg));
     }
 
     form.addEventListener('submit' , sendMailRegistery);
