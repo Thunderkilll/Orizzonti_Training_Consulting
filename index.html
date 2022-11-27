@@ -414,8 +414,7 @@
         <div class="text-center mb-5">
           <h5
             class="text-primary text-uppercase mb-3"
-            style="letter-spacing: 5px"
-          >
+            style="letter-spacing: 5px" >
             Courses
           </h5>
           <h1>Our Popular Courses</h1>
@@ -806,6 +805,7 @@
       </div>
     </div>
     <!-- BLOCK MAP END -->
+
     <!-- BLOCK LAUNCH TIME START -->
 
     <div class="time-counter-container">
@@ -837,6 +837,51 @@
     </div>
 
     <!-- BLOCK LAUNCH TIME END -->
+   <!-- BLOCK STATISTICS START-->
+   <div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+     <div class="text-center mb-5">
+       <!-- start count stats -->
+
+<section id="counter-stats" class="wow fadeInRight" data-wow-duration="1.4s">
+   <div class="container">
+       <div class="row"> 
+           <div class="col-lg-3 stats">
+            <img src="img/icons/certificate.png" alt="" style="height:250px; width: 250px; object-fit: cover">
+               <div class="counting" data-count="900000">0</div>
+               <h5>CERTIFICATE</h5>
+           </div>
+
+           <div class="col-lg-3 stats">
+            <img src="img/icons/visitor.png" alt="" style="height:250px; width: 250px; object-fit: cover">
+               <div class="counting" data-count="280">0</div>
+               <h5>VISITORS</h5>
+           </div>
+
+           <div class="col-lg-3 stats">
+            <img src="img/icons/students.png" alt="" style="height:250px; width: 250px; object-fit: cover">
+               <div class="counting" data-count="10000">0</div>
+               <h5>STUDENTS</h5>
+           </div>
+
+           <div class="col-lg-3 stats">
+               <img src="img/icons/teacher.png" alt="" style="height:250px; width: 250px; object-fit: cover">
+               <div class="counting" data-count="24">0</div>
+               <h5>TEACHERS</h5>
+           </div> 
+       </div>
+       <!-- end row -->
+   </div>
+   <!-- end container -->
+
+</section>
+
+<!-- end cont stats -->
+     </div>
+    </div>
+   </div>
+  <!-- BLOCK STATISTICS END-->
+
 
     <!-- Footer Start -->
     <div
@@ -1062,5 +1107,34 @@
     // PASSWORD : 437295FEF5B21EC5467E26C8A367C3D21E58
     // HOST     : smtp.elasticemail.com
     // PORT     : 2525
+
+
+    // STATISTICS
+    // number count for stats, using jQuery animate
+
+$('.counting').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
+  
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 3000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+  
+
+});
   </script>
 </html>
