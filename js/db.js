@@ -24,6 +24,16 @@ var data = {
         "crs_lang_fr": "French",
         "crs_lang_rs": "Russian",
         "crs_lang_gr": "German",
+        //TOP BAR 
+        "topbar_office": "Our Office",
+        "topbar_email_us": "Email Us",
+        "topbar_call": "Call Us",
+        //NAV BAR
+        "nav_contact": "Contact",
+        "nav_home": "Home",
+        "nav_about": "About",
+        "nav_courses": "Courses",
+
     },
     "italian":
     {
@@ -51,6 +61,16 @@ var data = {
         "crs_lang_fr": "Francese",
         "crs_lang_rs": "Russo",
         "crs_lang_gr": "Tedesco",
+        //TOP BAR 
+        "topbar_office": "Il nostro ufficio",
+        "topbar_email_us": "E-mail",
+        "topbar_call": "Chiamaci",
+        //NAV BAR
+        "nav_contact": "Contatto",
+        "nav_home": "Pagina Iniziale",
+        "nav_about": "A proposito Di",
+        "nav_courses": "Corsi",
+
 
     },
     "francais":
@@ -79,6 +99,15 @@ var data = {
         "crs_lang_fr": "Français",
         "crs_lang_rs": "Russe",
         "crs_lang_gr": "Allemand",
+        //TOP BAR 
+        "topbar_office": "Bureau",
+        "topbar_email_us": "E-mail",
+        "topbar_call": "Appelez-nous",
+        //NAV BAR
+        "nav_contact": "Contact",
+        "nav_home": "Accueil",
+        "nav_about": "À propos de",
+        "nav_courses": "Cours",
 
     },
     "arabe":
@@ -99,11 +128,20 @@ var data = {
         "crs_header1": "الدورات",
         "crs_header2": "الدورات الشعبية لدينا",
         "crs_nb_student": "الطلاب",
-        "crs_lang_it":  "الإيطالية",
+        "crs_lang_it": "الإيطالية",
         "crs_lang_en": "الإنجليزية",
         "crs_lang_ar": "العربية السهلة",
         "crs_lang_fr": "الفرنسية",
         "crs_lang_rs": "الروسية",
         "crs_lang_gr": "الألمانية",
+        //TOP BAR 
+        "topbar_office": "مكتبنا",
+        "topbar_email_us": "البريد الإلكتروني",
+        "topbar_call": "اتصل بنا",
+        //NAV BAR
+        "nav_contact": "اتصال",
+        "nav_home": "الصفحه الرئيسيه",
+        "nav_about": "معلومات عنا",
+        "nav_courses": "الدورات",
     }
 }
