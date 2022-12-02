@@ -29,8 +29,8 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
     <!-- SWIPER CUSTOM SHEET FOR PAGINATION -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'><link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"/>
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css"/>
 
   </head>
 
@@ -588,16 +588,18 @@
           <div class="col-lg-7 mb-5 mb-lg-0">
             <div class="mb-4">
               <h5
-                class="text-primary text-uppercase mb-3"
-                style="letter-spacing: 5px"
+                class="text-primary text-uppercase mb-3 regt1" 
+                style="letter-spacing: 5px "
               >
-                Need Any Courses
+                Need To learn a new Language ?
               </h5>
-              <h1 class="text-white">For Our New Students</h1>
+              <h1 class="text-white reg_t2">For Our New Students</h1>
             </div>
-            <p class="text-white">
+            <p class="text-white reg_text">
               If you are searching for a certificate for one or more languages
               you can register by calling us or in here !
+              We will provide you with the best quality of teacher and garantied certificate
+              Courses , exams and much more .
             </p>
             <!-- <ul class="list-inline text-white m-0">
                         <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Labore eos amet dolor amet diam</li>
@@ -609,7 +611,7 @@
           <div class="col-lg-5">
             <div class="card border-0">
               <div class="card-header bg-light text-center p-4">
-                <h1 class="m-0">Sign Up Now</h1>
+                <h1 class="m-0 reg_sign">Sign Up Now</h1>
               </div>
               <div class="card-body rounded-bottom bg-primary p-5">
                 <form class="register_form">
@@ -650,7 +652,7 @@
                   </div>
                   <div>
                     <button
-                      class="btn btn-dark btn-block border-0 py-3"
+                      class="btn btn-dark btn-block border-0 py-3 reg_button"
                       type="submit"
                     >
                       Sign Up Now
@@ -1178,6 +1180,15 @@ $('.counting').each(function() {
        const nav_home = document.querySelector('.nav_home');
        const nav_about = document.querySelector('.nav_about');
        const nav_courses = document.querySelector('.nav_courses');
+      //REGISTER SECTION
+      const reg_button = document.querySelector('.reg_button'); 
+      const reg_t1 = document.querySelector('.regt1'); 
+      const reg_t2 = document.querySelector('.reg_t2'); 
+      const reg_sign = document.querySelector('.reg_sign'); 
+      const reg_text = document.querySelector('.reg_text'); 
+
+
+
      //LOGIC
        link.forEach(el => {
          el.addEventListener('click', () => {
@@ -1222,7 +1233,13 @@ $('.counting').each(function() {
            nav_home.textContent = data[attr].nav_home;
            nav_about.textContent = data[attr].nav_about;
            nav_courses.textContent = data[attr].nav_courses;
-   
+          //REGISTER SECTION
+          reg_button.textContent = data[attr].reg_button;
+          reg_t1.textContent = data[attr].regt1;
+          reg_t2.textContent = data[attr].reg_t2;
+          reg_sign.textContent = data[attr].reg_sign;
+          reg_text.textContent = data[attr].reg_text;
+
          });
        }); 
      </script>

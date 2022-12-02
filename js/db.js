@@ -1,7 +1,7 @@
 var data = {
     "english":
     {
-        "text_about_us": "text_about_us",
+        "text_about_us": "About Us",
         "desc_about_us":
             "Orizzonti training & consulting objective is providing Italian language classes and Communication skills to students that need certification in Italian. Our center has an approved certificate in the Italian language by cert.it sis in Tunisia." +
             "We provide as well courses in other languages with equal value to our students .",
@@ -33,6 +33,12 @@ var data = {
         "nav_home": "Home",
         "nav_about": "About",
         "nav_courses": "Courses",
+        //REGISTER SECTION
+        "reg_button": "Sign Up Now",
+        "regt1": "  Need To learn a new Language ?",
+        "reg_t2": "For Our New Students",
+        "reg_sign": "Sign Up Now",
+        "reg_text": " If you are searching for a certificate for one or more languages, \n\r You can register by calling us or in here ! \n\r We will provide you with the best quality of teacher and guarantied certificated Courses :\n\r Exams , accompaniment and much more .",
 
     },
     "italian":
@@ -70,6 +76,13 @@ var data = {
         "nav_home": "Pagina Iniziale",
         "nav_about": "A proposito Di",
         "nav_courses": "Corsi",
+        //REGISTER SECTION
+        "reg_button": "Salva",
+        "regt1": "Hai bisogno di imparare una nuova lingua?",
+        "reg_t2": "Per i nostri nuovi studenti",
+        "reg_sign": "Registrati adesso",
+        "reg_text": "Se stai cercando un certificato per una o più lingue,\n\r Puoi registrarti chiamandoci o qui!\n\r Ti forniremo la migliore qualità di insegnanti e corsi certificati garantiti :"
+        +"\n\rEsami, accompagnamento e molto altro.",
 
 
     },
@@ -108,6 +121,12 @@ var data = {
         "nav_home": "Accueil",
         "nav_about": "À propos de",
         "nav_courses": "Cours",
+        //REGISTER SECTION
+        "reg_button": "Enregistrer",
+        "regt1": "Besoin d'apprendre une nouvelle langue ?",
+        "reg_t2": "Pour nos nouveaux étudiants",
+        "reg_sign": "S'inscrire maintenant",
+        "reg_text": "Si vous recherchez un certificat pour une ou plusieurs langues,\n\r vous pouvez vous inscrire en nous appelant ou ici !\n\rNous vous fournirons la meilleure qualité d'enseignants et des cours certifiés garantis:\n\r Examens , accompagnement et bien plus encore .",
 
     },
     "arabe":
@@ -143,5 +162,12 @@ var data = {
         "nav_home": "الصفحه الرئيسيه",
         "nav_about": "معلومات عنا",
         "nav_courses": "الدورات",
+        //REGISTER SECTION
+        "reg_button": "سجل الان",
+        "regt1": "هل تحتاج إلى تعلم لغة جديدة؟",
+        "reg_t2": "لطلابنا الجدد",
+        "reg_sign": "قم بالتسجيل الآن",
+        "reg_text": "إذا كنت تبحث عن شهادة للغة أو أكثر يمكنك التسجيل عن طريق الاتصال بنا أو هنا! سوف نقدم لك أفضل نوعية من المعلمين والدورات المعتمدة المضمونة."+
+       +" الامتحانات والمرافقة وغير ذلك الكثير.",
     }
 }

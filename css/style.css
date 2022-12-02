@@ -10120,17 +10120,17 @@ z-index: 100;
 	-webkit-align-items: center;
 	align-items: center;
 }
-.swiper-pagination {
+/* .swiper-pagination {
 	position: absolute;
 	width: auto !important;
 	left: auto !important;
-}
-.swiper-pagination-bullet {
+} */
+/* .swiper-pagination-bullet {
 	padding: -20px -20px; 
 	width: 400px;
 	height: 400px;  
 	opacity: 1; 
-}
+} */
 .swiper-pagination-bullet-active {
 	color:#fff;
 	background: #007aff;
