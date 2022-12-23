@@ -10120,7 +10120,6 @@ z-index: 100;
 	-webkit-align-items: center;
 	align-items: center;
 }
-<<<<<<< HEAD
 .swiper-pagination {
 
 	width: auto !important;
@@ -10130,8 +10129,8 @@ z-index: 100;
 	padding: 10px 10px; 
 	width: 100%;
 	height: 100%;  
-=======
-/* .swiper-pagination {
+}
+ /* .swiper-pagination {
 	position: absolute;
 	width: auto !important;
 	left: auto !important;
@@ -10140,8 +10139,7 @@ z-index: 100;
 	padding: -20px -20px; 
 	width: 400px;
 	height: 400px;  
->>>>>>> 7d23d9ce2048323843f5e97e50a901dc0d31a2b8
-	opacity: 1; 
+ 	opacity: 1; 
 } */
 .swiper-pagination-bullet-active {
 	color:#fff;
