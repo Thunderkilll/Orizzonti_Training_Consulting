@@ -30,7 +30,11 @@
     <link href="css/style.css" rel="stylesheet" />
     <!-- SWIPER CUSTOM SHEET FOR PAGINATION -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"/>
+<<<<<<< HEAD
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'/>
+=======
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css"/>
+>>>>>>> 7d23d9ce2048323843f5e97e50a901dc0d31a2b8
 
   </head>
 
@@ -54,7 +58,7 @@
           <div class="d-inline-flex align-items-center">
             <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
             <div class="text-left">
-              <h6 class="font-weight-semi-bold mb-1">Our Office</h6>
+              <h6 class="font-weight-semi-bold mb-1  topbar_office">Our Office</h6>
               <small>6 rue Lucie Faure Tunis, Tunisia</small>
             </div>
           </div>
@@ -63,7 +67,7 @@
           <div class="d-inline-flex align-items-center">
             <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
             <div class="text-left">
-              <h6 class="font-weight-semi-bold mb-1">Email Us</h6>
+              <h6 class="font-weight-semi-bold mb-1 topbar_email_us">Email Us</h6>
               <small>info@orizzonti.tn</small>
             </div>
           </div>
@@ -72,7 +76,7 @@
           <div class="d-inline-flex align-items-center">
             <i class="fa fa-2x fa-phone text-primary mr-3"></i>
             <div class="text-left">
-              <h6 class="font-weight-semi-bold mb-1">Call Us</h6>
+              <h6 class="font-weight-semi-bold mb-1 topbar_call">Call Us</h6>
               <small>+216 24 422 753 || +216 36 239 750</small>
             </div>
           </div>
@@ -112,10 +116,14 @@
               id="navbarCollapse"
             >
               <div class="navbar-nav py-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="course.html" class="nav-item nav-link">Courses</a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <!-- <a href="index.html" class="nav-item nav-link active nav_home">Home</a>
+                <a href="about.html" class="nav-item nav-link nav_about">About</a>
+                <a href="course.html" class="nav-item nav-link nav_courses">Courses</a>
+                <a href="contact.html" class="nav-item nav-link nav_contact">Contact</a>  -->
+                <a href="#" class="nav-item nav-link active nav_home">Home</a>
+                <a href="#about_block" class="nav-item nav-link nav_about">About</a>
+                <a href="#" class="nav-item nav-link nav_courses">Courses</a>
+                <a href="#register_block" class="nav-item nav-link nav_contact">Contact</a>
               </div>
               <nav>
                 <div id="menu_languages">
@@ -270,7 +278,7 @@
     </div>
     <!-- Carousel End -->
     <!-- About Start -->
-   <div class="container-fluid py-5">
+   <div class="container-fluid py-5" id="about_block">
       <div class="container py-5">
         <div class="row align-items-center">
           <div class="col-lg-5">
@@ -582,22 +590,24 @@
     <!-- Courses End -->
 
     <!-- Registration Start -->
-    <div class="container-fluid bg-registration py-5" style="margin: 90px 0">
+    <div class="container-fluid bg-registration py-5" style="margin: 90px 0" id="register_block">
       <div class="container py-5">
         <div class="row align-items-center">
           <div class="col-lg-7 mb-5 mb-lg-0">
             <div class="mb-4">
               <h5
-                class="text-primary text-uppercase mb-3"
-                style="letter-spacing: 5px"
+                class="text-primary text-uppercase mb-3 regt1" 
+                style="letter-spacing: 5px "
               >
-                Need Any Courses
+                Need To learn a new Language ?
               </h5>
-              <h1 class="text-white">For Our New Students</h1>
+              <h1 class="text-white reg_t2">For Our New Students</h1>
             </div>
-            <p class="text-white">
+            <p class="text-white reg_text">
               If you are searching for a certificate for one or more languages
               you can register by calling us or in here !
+              We will provide you with the best quality of teacher and garantied certificate
+              Courses , exams and much more .
             </p>
             <!-- <ul class="list-inline text-white m-0">
                         <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Labore eos amet dolor amet diam</li>
@@ -609,7 +619,7 @@
           <div class="col-lg-5">
             <div class="card border-0">
               <div class="card-header bg-light text-center p-4">
-                <h1 class="m-0">Sign Up Now</h1>
+                <h1 class="m-0 reg_sign">Sign Up Now</h1>
               </div>
               <div class="card-body rounded-bottom bg-primary p-5">
                 <form class="register_form">
@@ -650,7 +660,7 @@
                   </div>
                   <div>
                     <button
-                      class="btn btn-dark btn-block border-0 py-3"
+                      class="btn btn-dark btn-block border-0 py-3 reg_button"
                       type="submit"
                     >
                       Sign Up Now
@@ -925,18 +935,18 @@
               Our Courses
             </h5>
             <div class="d-flex flex-column justify-content-start">
-              <a class="text-white mb-2" href="#"
-                ><i class="fa fa-angle-right mr-2"></i>Français</a
+              <a class="text-white mb-2" href="#register_block" 
+                ><i class="fa fa-angle-right mr-2"></i>Italiano</a
               >
-              <a class="text-white mb-2" href="#"
+              <a class="text-white mb-2" href="#register_block" 
                 ><i class="fa fa-angle-right mr-2"></i>العربّية</a
               >
-              <a class="text-white mb-2" href="#"
+              <a class="text-white mb-2" href="#register_block" 
                 ><i class="fa fa-angle-right mr-2"></i>English</a
               >
-              <a class="text-white mb-2" href="#"
-                ><i class="fa fa-angle-right mr-2"></i>Deutch</a
-              >
+              <a class="text-white mb-2" href="#register_block" 
+                ><i class="fa fa-angle-right mr-2"></i>Français</a
+              >  
               <!-- <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>SEO</a> -->
             </div>
           </div>
@@ -1166,7 +1176,24 @@ $('.counting').each(function() {
        const crs_lang_ar = document.querySelector('.crs_lang_ar');
        const crs_lang_gr = document.querySelector('.crs_lang_gr');
        const crs_lang_rs = document.querySelector('.crs_lang_rs');
-       //
+       //TOP BAR SECTION
+       const topbar_office = document.querySelector('.topbar_office');
+       const topbar_email_us = document.querySelector('.topbar_email_us');
+       const topbar_call = document.querySelector('.topbar_call');
+       //NAV BAR SECTION
+       const nav_contact = document.querySelector('.nav_contact');
+       const nav_home = document.querySelector('.nav_home');
+       const nav_about = document.querySelector('.nav_about');
+       const nav_courses = document.querySelector('.nav_courses');
+      //REGISTER SECTION
+      const reg_button = document.querySelector('.reg_button'); 
+      const reg_t1 = document.querySelector('.regt1'); 
+      const reg_t2 = document.querySelector('.reg_t2'); 
+      const reg_sign = document.querySelector('.reg_sign'); 
+      const reg_text = document.querySelector('.reg_text'); 
+
+
+
      //LOGIC
        link.forEach(el => {
          el.addEventListener('click', () => {
@@ -1202,7 +1229,22 @@ $('.counting').each(function() {
            crs_lang_ar.textContent = data[attr].crs_lang_ar;
            crs_lang_gr.textContent = data[attr].crs_lang_gr;
            crs_lang_rs.textContent = data[attr].crs_lang_rs;
-   
+           //TOP BAR SECTION
+           topbar_office.textContent = data[attr].topbar_office;
+           topbar_email_us.textContent = data[attr].topbar_email_us;
+           topbar_call.textContent = data[attr].topbar_call;
+           //NAV BAR SECTION
+           nav_contact.textContent = data[attr].nav_contact;
+           nav_home.textContent = data[attr].nav_home;
+           nav_about.textContent = data[attr].nav_about;
+           nav_courses.textContent = data[attr].nav_courses;
+          //REGISTER SECTION
+          reg_button.textContent = data[attr].reg_button;
+          reg_t1.textContent = data[attr].regt1;
+          reg_t2.textContent = data[attr].reg_t2;
+          reg_sign.textContent = data[attr].reg_sign;
+          reg_text.textContent = data[attr].reg_text;
+
          });
        }); 
      </script>

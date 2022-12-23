@@ -10120,6 +10120,7 @@ z-index: 100;
 	-webkit-align-items: center;
 	align-items: center;
 }
+<<<<<<< HEAD
 .swiper-pagination {
 
 	width: auto !important;
@@ -10129,9 +10130,96 @@ z-index: 100;
 	padding: 10px 10px; 
 	width: 100%;
 	height: 100%;  
+=======
+/* .swiper-pagination {
+	position: absolute;
+	width: auto !important;
+	left: auto !important;
+} */
+/* .swiper-pagination-bullet {
+	padding: -20px -20px; 
+	width: 400px;
+	height: 400px;  
+>>>>>>> 7d23d9ce2048323843f5e97e50a901dc0d31a2b8
 	opacity: 1; 
-}
+} */
 .swiper-pagination-bullet-active {
 	color:#fff;
 	background: #007aff;
+}
+
+
+/* PrÃ¼fungsfinder */
+table.pr-finder, table.pr-finder.pr-auswahl { width:100%; padding:0; border-collapse:collapse; }
+table.pr-finder { font-size:1em; background-color:#f1f2f1; margin-bottom:1.0625rem; }
+table.pr-finder p { padding-right:0; margin-bottom:0; }
+.pr-finder th, .pr-finder td { vertical-align:top; text-align:left; }
+.pr-finder th { font-size:.9375rem; }
+.pr-finder th.pr-ort { padding:.8125rem 1.125rem .4375rem 1.125rem; }
+.pr-finder th.pr-frist, .pr-finder th.pr-preis { padding:.8125rem .5rem .4375rem .5rem; }
+
+/* PR Tabs*/
+.pr-level-select {  margin:0 0 19px 0; padding:0; list-style:none; border-bottom:1px solid #c9cdcf; margin-bottom:1.1875rem; }
+.pr-level-select li { display:inline-block; }
+.pr-level-select a { padding:.625rem 14px; display:block; color:#5f676b; font-size:.9375rem; }
+.pr-level-active { background-color:#fff; border-left:1px solid #c9cdcf; border-right:1px solid #c9cdcf; border-top-left-radius:.125rem; border-top-right-radius:.125rem; margin-bottom:-0.0625rem; padding-bottom:0.0625rem; font-weight:bold; }
+.pr-level-active a { color: #a0c814; }
+.pr-level-active a:focus { text-decoration:none; }
+.pr-level-active.A1, .pr-level-active.A2 { border-top:.125rem solid #820b5f; }
+.pr-level-active.A1 a, .pr-level-active.A2 a { color:#820b5f; }
+.pr-level-active.B1, .pr-level-active.B2 { border-top:.125rem solid #eb6400; }
+.pr-level-active.B1 a, .pr-level-active.B2 a { color:#eb6400; }
+.pr-level-active.C1, .pr-level-active.C2 { border-top:.125rem solid #003b69; }
+.pr-level-active.C1 a, .pr-level-active.C2 a { color:#003b69; }
+
+/* PR Name */
+th.pr-name { padding:0; border-right:1px solid #f1f2f1; width:123px; width:7.6875rem; }
+th.A1, th.A2, table.A1, table.A2 { color:#fff; background-color:#820b5f; }
+th.B1, th.B2, table.B1, table.B2 { color:#fff; background-color:#eb6400; }
+th.C1, th.C2, table.C1, table.C2 { color:#fff; background-color:#003b69; }
+th.DaF, th.bulats, table.DaF, table.bulats { color:#fff; background-color:#788287; }
+th.GTP, table.GTP { color:#fff; background-color:#5ac8f5; }
+.pr-name div.pr-stufe, .pr-name div.pr-name-detail { margin:0 .5rem 0 .9375rem; font-family:"ClanWebPro-NarrMedium", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:normal; line-height:normal; text-transform:uppercase; text-rendering:optimizelegibility; zoom:1; }
+.pr-name.GTP div.pr-stufe, .pr-name.GTP div.pr-name-detail { margin-left:.625rem; margin-right:.625rem; }
+.pr-name div.pr-stufe { font-size:76px; margin-top:.625rem; line-height:1; }
+.pr-name div.pr-name-detail { font-size:1rem; margin-top:-.5rem; margin-bottom:.375rem; line-height:1.125; }
+.pr-finder td.pr-datum { border-top:1px solid #c9cdcf; padding:.9375rem 1.125rem .125rem 18px; vertical-align:bottom; }
+.pr-finder td { padding:0 .5rem .5rem .5rem; }
+td.pr-ort { padding-left:1.125rem; width:154px; width:9.625rem; padding-right:1.125rem; }
+td.pr-buttons { text-align:right; }
+h5.pr-datum { margin:0; font-size:1.125rem; }
+p.pr-preis, p.pr-preis-intern { margin:0; }
+p.pr-preis { white-space:nowrap; font-weight:bold; }
+p.pr-preis-int { color:#929a9e; white-space:nowrap; }
+.pr-finder .standard { font-size:.9375em; padding-top:.1875rem; margin-bottom:.625rem; margin-top:0; white-space:nowrap; }
+.pr-finder .standard:before { font-size:.733333em; margin-right:.375rem; }
+tr.pr-ausgebucht td, button[disabled], a[disabled] { cursor:default; pointer-events: none; }
+tr.pr-ausgebucht h5, tr.pr-ausgebucht p { color:#929a9e; }
+.nicht-buchbar td, .nicht-buchbar td p.pr-preis-int, tr.pr-ausgebucht h5, tr.pr-ausgebucht p { color:#929a9e; }
+th.pr-hinweis { padding:1.9375rem 2.25rem; vertical-align:middle; font-size:1em; }
+span.pr-hinweis { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; text-transform:none; color:#929a9e; font-size:.85625em; display:inline-block; margin-top:.125rem; }
+.pr-finder .btnHellGrauV3 { padding-top:.375rem; padding-bottom:.3125rem; }
+
+/* PrÃ¼fungsfinder Auswahl */
+table.pr-finder.pr-auswahl { margin-bottom:0; height:129px; height:8.0625rem; }
+table.pr-auswahl th.pr-name { border-right:0; width:auto; }
+th.pr-filter { text-align:right; padding-right:.875rem; padding-top:1.6875rem; }
+.pr-filter div.standardFormReihe { margin-bottom:1.125rem; }
+.pr-filter .standardFormReihe + .standardFormReihe { margin-bottom:.875rem; }
+.pr-filter .labelText { width:auto; display:inline; float:none; color:#fff; font-weight:normal; font-size:.875rem; position:relative; top:.125rem; }
+.pr-filter .kontaktSelectV1.dk-select { text-align:left; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; text-transform:none; width:190px; width:11.875rem; }
+.pr-filter .kontaktSelectV1 .dk-selected { border-color:#f1f2f1; padding-top:0; padding-bottom:0; background-color:#f1f2f1; line-height:1.3125rem; }
+.pr-filter-loeschen a { color:#adb3b6; }
+.pr-filter-loeschen a:hover, .pr-filter-loeschen a:focus, .pr-filter-loeschen a:active { color:#fff; text-decoration:none; }
+/* PrÃ¼fungsfinder Treffer */
+table.pr-finder.pr-treffer th  { background-color:#e4e6e7; }
+table.pr-finder.pr-treffer td.pr-ort  { padding-right:3.625rem; }
+table.pr-finder.pr-treffer td.pr-frist { padding-right:3.125rem; }
+button.btnHellGrau, a.btnHellGrau {
+  background-color: #c9cdcf;
+  color: #fff;
+}
+button.btnHellGrauV3, a.btnHellGrauV3, button.btnHellGrauV3 a {
+  background-color: #e4e6e7;
+  color: #788287;
 }
