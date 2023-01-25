@@ -3,8 +3,9 @@ var data = {
     {
         "text_about_us": "About Us",
         "desc_about_us":
-            "Orizzonti training & consulting objective is providing Italian language classes and Communication skills to students that need certification in Italian. Our center has an approved certificate in the Italian language by cert.it sis in Tunisia." +
-            "We provide as well courses in other languages with equal value to our students .",
+            "Objective of Orizzonti Training & Consulting is to provide Italian language lessons and communication skills to students who need certification in Italian."+
+            "Our center has a certificate approved in Italian Language by Cert.it SIS in Tunisia."+
+            "We provide as well courses in other languages with equal value to our students.",
         //category Section
         "category_header1": "Subjects",
         "category_header2": "Explore Top Subjects",
@@ -45,9 +46,10 @@ var data = {
     {
         "text_about_us": "Chi siamo",
         "desc_about_us":
-            "Orizzonti training & consulting obiettivo è fornire lezioni di lingua italiana e abilità comunicative agli studenti che necessitano di certificazione in italiano." +
-            "\nIl nostro centro ha un certificato approvato in lingua italiana da cert.it sis in Tunisia.\n" +
-            "Forniamo anche corsi in altre lingue con pari valore ai nostri studenti.",
+            "Orizzonti Training & Consulting èun centro di formazione in lingue straniere."+ 
+            "La nostra offerta linguistica comprende l'insegnamento di lingue quali l'italiano, l'inglese, il francese, lo spagnolo, il tedesco, il russo e l'arabo per stranieri, attraverso varie tipologie di corsi: in presenza, on line oppure ibridi per raggiungervi ovunque vi troviate, accorciando le distanze."+
+            "La nostra scuola garantisce la massima professionalità, con un corpo pedagogico formato da docenti altamente qualificati che sapranno inquadrarvi in maniera adeguata, secondo i vostri bisogni."+
+            "OTC è un centro convenzionato con l’Université  degli Studi Roma Tre e sede di esame della certificazione Cert.it, certificazione  riconosciuta dai Ministeri degli Affari Esteri, dell'Istruzione Università e Ricerca." ,
         //category Section
         "category_header1": "Soggetti",
         "category_header2": "Esplora argomenti principali",
